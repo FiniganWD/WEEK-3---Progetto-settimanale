@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Esercizio operatore ternario</title>
+</head>
+<body>
+    <h1>CALCOLATRICE JAVASCRIPT</h1>
+    <div class="calcolatrice">
+        <div class="display">
+            <input type="text" name="display" id="operazioni" readonly="readonly" class="">
+        </div>
+        <div class="comandi">
+            <p class="marca">CASIO <strong>fx91</strong></p>
+            <input type="button" id="7" value="7" onclick="n(this.id)">
+            <input type="button" id="8" value="8" onclick="n(this.id)">
+            <input type="button" id="9" value="9" onclick="n(this.id)">
+            <input type="button" id="/" value="/" onclick="n(this.id)">
+            <br>
+            <input type="button" id="4" value="4" onclick="n(this.id)">
+            <input type="button" id="5" value="5" onclick="n(this.id)">
+            <input type="button" id="6" value="6" onclick="n(this.id)">
+            <input type="button" id="*" value="X" onclick="n(this.id)">
+            <br>
+            <input type="button" id="1" value="1" onclick="n(this.id)">
+            <input type="button" id="2" value="2" onclick="n(this.id)">
+            <input type="button" id="3" value="3" onclick="n(this.id)">
+            <input type="button" id="-" value="-" onclick="n(this.id)">
+            <br>
+            <input type="button" value="C" onclick="cancella()">
+            <input type="button" id="0" value="0" onclick="n(this.id)">
+            <input type="button" id="." value="." onclick="n(this.id)">
+            <input type="button" id="+" value="+" onclick="n(this.id)">
+            <br>
+            <button value="=" onclick="operazione()" >=</button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
